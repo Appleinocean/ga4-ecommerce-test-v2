@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문 완료 - GA4 테스트 쇼핑몰</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body id="page-confirmation">
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">TestShop</a>
+            <nav>
+                <a href="index.html">홈</a>
+                <a href="products.html">전체 상품</a>
+                <a href="cart.html">장바구니 (<span id="cart-count">0</span>)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="text-align: center; padding-top: 50px;">
+        <h1>주문이 성공적으로 완료되었습니다.</h1>
+        <p>주문해주셔서 감사합니다.</p>
+        <p>주문 번호: <span id="transaction-id"></span></p>
+        <a href="index.html" class="btn" style="margin-top: 20px;">홈으로 돌아가기</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GA4 Test Shop for BigQuery AI Agent</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

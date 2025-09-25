@@ -1,0 +1,45 @@
+[
+  {
+    "id": "P001",
+    "name": "스텔라(Stella) 스마트 워치",
+    "category": "IT/가전",
+    "price": 350000,
+    "image": "https://via.placeholder.com/400x400.png?text=Stella+Watch",
+    "description": "최첨단 기술과 클래식한 디자인의 만남. 당신의 건강과 일상을 스마트하게 관리하세요.",
+    "options": {
+      "색상": ["스페이스 블랙", "스타라이트 실버"],
+      "스트랩": ["실리콘", "가죽"]
+    }
+  },
+  {
+    "id": "P002",
+    "name": "어반(Urban) 백팩",
+    "category": "패션/잡화",
+    "price": 89000,
+    "image": "https://via.placeholder.com/400x400.png?text=Urban+Backpack",
+    "description": "도시 생활자를 위한 완벽한 수납공간과 미니멀한 디자인. 어떤 스타일에도 잘 어울립니다.",
+    "options": {
+      "색상": ["차콜 그레이", "네이비 블루", "카키"]
+    }
+  },
+  {
+    "id": "P003",
+    "name": "오로라(Aurora) 무드등",
+    "category": "홈/리빙",
+    "price": 45000,
+    "image": "https://via.placeholder.com/400x400.png?text=Aurora+Mood+Light",
+    "description": "당신의 공간을 따뜻한 빛으로 채워줄 감성 무드등. 3단계 밝기 조절이 가능합니다.",
+    "options": {}
+  },
+  {
+    "id": "P004",
+    "name": "코어(Core) 프로틴 쉐이크",
+    "category": "건강/식품",
+    "price": 28000,
+    "image": "https://via.placeholder.com/400x400.png?text=Core+Protein",
+    "description": "순도 높은 단백질 보충제. 운동 후 빠른 회복을 돕습니다.",
+    "options": {
+      "맛": ["초코", "바닐라", "딸기"]
+    }
+  }
+]

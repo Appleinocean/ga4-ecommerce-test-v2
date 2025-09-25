@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결제 - GA4 테스트 쇼핑몰</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body id="page-checkout">
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">TestShop</a>
+            <nav>
+                <a href="index.html">홈</a>
+                <a href="products.html">전체 상품</a>
+                <a href="cart.html">장바구니 (<span id="cart-count">0</span>)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>결제</h1>
+        <div class="checkout-form">
+            <div id="shipping-info">
+                <h2>배송 정보</h2>
+                <form id="shipping-form">
+                    <label for="name">이름</label>
+                    <input type="text" id="name" required style="width: 95%; padding: 8px; margin-bottom: 10px;">
+                    <label for="address">주소</label>
+                    <input type="text" id="address" required style="width: 95%; padding: 8px; margin-bottom: 10px;">
+                    <button type="submit" class="btn">배송 정보 저장</button>
+                </form>
+            </div>
+            <div id="payment-info">
+                <h2>결제 수단</h2>
+                <form id="payment-form">
+                    <label for="payment-method">결제 수단 선택</label>
+                    <select id="payment-method" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                        <option value="credit_card">신용카드</option>
+                        <option value="bank_transfer">계좌이체</option>
+                    </select>
+                     <button type="submit" class="btn">결제 수단 저장</button>
+                </form>
+            </div>
+        </div>
+        <div id="order-summary" style="margin-top: 40px;">
+            <h2>최종 주문 내역</h2>
+            <button id="purchase-button" class="btn" style="width: 100%; margin-top: 20px; padding: 15px; font-size: 1.2em;">최종 결제하기</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 GA4 Test Shop for BigQuery AI Agent</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
